@@ -1,0 +1,80 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('https://i.guim.co.uk/img/media/05820a662764b55ee80d17045c20a97337419921/0_205_6157_3695/master/6157.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0e32bf9dc7c42934204edc0a40dcdb7a');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('https://thumbs.dreamstime.com/z/christmas-frame-greeting-card-gift-present-box-holiday-decoration-blue-background-top-view-happy-new-year-composition-159955228.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('https://cdn.abcotvs.com/dip/images/5679216_110719-cc-ss-christmas-presents-generic-img.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
