@@ -1,8 +1,8 @@
 :root {
     --mainWhite: #f5f5f5;
-    --mainGreen: #1c00b8;
-    --mainBlue: #0d2c54;
-    --lightBlue: #00a6ed;
+    --mainGreen: #5848b6;
+    --mainBlue: #020508;
+    --lightBlue: #c05534;
     --mainBlack: #333333;
 }
 
@@ -29,7 +29,7 @@ body {
 
 #counter {
     color: var(--mainGreen);
-    font-size: 10rem;
+    font-size: 9rem;
     color: var(--mainBlack);
 }
 
