@@ -10,6 +10,9 @@
 .max-height {
     min-height: 100vh;
 }
+h1{
+    font-size: 100px;
+}
 
   html,body{
     
@@ -74,7 +77,4 @@
   font-size: 35px;
   margin: 10px 8px;
   cursor: pointer;
-}
-.displayPara.textContent:hover {
-    font-size: 500%
 }
